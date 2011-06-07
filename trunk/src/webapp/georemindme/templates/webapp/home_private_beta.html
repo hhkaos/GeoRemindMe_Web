@@ -49,15 +49,26 @@ $(document).ready(function(){
 
       <span id="iframeVideo"></span>
       <div id="know_more">
-         <a href="{%url knowmore%}" title="{% trans "Screenshots, licenses, versions, etc."%}" accesskey="m">{% trans "Learn more"%}</a>
+         <form id="subscription-form" action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('{% trans "http://feedburner.google.com/fb/a/mailverify?uri=GeoRemindMe" %}', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">{% trans "Keep me updated!" %} 
+			<p>{% trans "Enter your email address to be notified when a new version is released" %}</p>
+			<input type="text" id="subscribe-rss" placeholder="email" name="email"/><input type="hidden" value="GeoRemindMe" name="uri"/>
+			<input type="hidden" name="loc" value="{% trans "en_US" %}"/><input type="submit" value="{% trans "Sign me up!" %}" />
+			<p class="text-align-center">{% trans "No spam. We promise." %}</p>
+			</form> 
+			
       </div>
    </div>
-   <div id="form-invitation-request">
-      <p class="new_msg">{% trans "Request an invitation for the <strong>Private Beta</strong>"%}</p>
-      <p>{% trans "The application is still under development, so it's not completely functional yet." %}</p>
-      <p>{% trans "<strong>If you are interested on helping us to test and improve the application</strong>, please <a href='https://spreadsheets.google.com/viewform?formkey=dEFPeHBiSktzeFluM3dRQnNvVnFCUXc6MQ' accesskey='f'>fill this form</a> and we will send you and invitation as soon as possible." %}</p>
-      <p id="invitation-request"><a href="https://spreadsheets.google.com/viewform?formkey=dEFPeHBiSktzeFluM3dRQnNvVnFCUXc6MQ" accesskey="i">{% trans "Request an invitation"%}</a></p>
-      <p>{% trans "<em>Or if you prefer we can contact you when the <a href='/knowmore/#keep-up-to-date'  accesskey='u'>version for you device</a> is available.</em>" %}</p>
+
+  	<div id="form-invitation-request" class="caja-arriba">
+      <p class="new_msg"><a href="{%url knowmore%}" title="{% trans "Screenshots, licenses, versions, etc."%}" accesskey="m">{% trans "More about"%}</a>{% trans " the project:"%}</p>
+      <p><a href='/knowmore/#available-versions' class="right-arrow">{% trans "Available Versions" %}</a></p>
+      <p><a href='/knowmore/#community' class="right-arrow">{% trans "The GeoRemindMe Community" %}</a></p>
+   </div>
+
+	<div id="form-invitation-request" class="caja-abajo">
+      <p class="new_msg">{% trans "Now <strong>testing</strong>"%}</p>
+      <p>{% trans "Would you like to help us with beta testing? <strong>Request an invitation</strong> and we will send you the details:" %}</p>
+      <p id="invitation-request"><a href="https://spreadsheets.google.com/viewform?formkey=dEFPeHBiSktzeFluM3dRQnNvVnFCUXc6MQ" accesskey="i">{% trans "Request invitation"%}</a></p>
    </div>
 
 {%endblock%}
