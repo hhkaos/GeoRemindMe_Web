@@ -1,0 +1,3 @@
+*.pyc
+/trunk/src/webapp/settings.py
+/trunk/src/webapp/index.yaml
