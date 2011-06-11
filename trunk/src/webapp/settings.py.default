@@ -131,16 +131,16 @@ TEMPLATE_CONTEXT_PROCESSORS = (
 )
 
 LANGUAGES = (
-  ('ca', 'Catala'),
-  ('de', 'Deutsch'),
+  ('ca', u'Català'),
+  #('de', 'Deutsch'),
   ('en', 'English'),
   ('es', u'Español'),
-  ('fr', 'Francais'),
-  ('gl', 'Galego'),
-  ('it', 'Italiano'),
-  ('nl', 'Nederlands'),
-  ('pl', 'Polski'),
-  ('zh', 'Chinese'),
+  #('fr', 'Francais'),
+  #('gl', 'Galego'),
+  #('it', 'Italiano'),
+  #('nl', 'Nederlands'),
+  #('pl', 'Polski'),
+  #('zh', 'Chinese'),
   
 )
 
