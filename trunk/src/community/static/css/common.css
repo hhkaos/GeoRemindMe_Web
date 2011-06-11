@@ -1,0 +1,156 @@
+.content-box blockquote{
+   color: #222222;
+   font-style: normal;
+   font-weight: normal;
+   margin-bottom: 0;
+   margin-top: 0;
+}
+.content-box div{
+  font-weight: normal;
+}
+#main-container p {
+  1.5em
+}
+.content-box ul li{
+  display: list-item;
+  list-style: disc outside none;
+  margin-left: 30px;
+}
+td{
+  border:0;
+}
+.tab1{
+  padding-left:0px;
+}
+.tab2{
+  padding-left:15px;
+}
+.tab3{
+  padding-left:30px;
+}
+article h3{
+  margin-top: 10px;
+}
+#top-menu{
+	float: right;
+	margin-top: 40px;
+}
+
+#top-menu ul{
+	display: inline;
+	font-size: 1.1em;
+	padding: 10px;
+}
+#top-menu ul li{
+	width:75px;
+}
+
+.menu-icons{
+	height: 30px;
+	padding: 5px 10px 5px 30px;
+}
+#Home{
+	background: url("http://static.georemindme.com/images/icons/home.png") no-repeat scroll 0 0 transparent;
+}
+#Jobs{
+	background: url("http://static.georemindme.com/images/icons/business_user.png") no-repeat scroll 0 0 transparent;
+}
+#APIs{
+	background: url("http://static.georemindme.com/images/icons/tools.png") no-repeat scroll 0 0 transparent;
+}
+#Community,#licensing-usuarios{
+	background: url("http://static.georemindme.com/images/icons/users.png") no-repeat scroll 0 0 transparent;
+}
+#documentation{
+}
+#community-content{
+	text-align: left;
+}
+#community-content ul{
+	margin: 10px 20px 0 20px;
+}
+#community-content h3{
+	border-bottom: 1px dotted black;
+	
+}
+#community-content ul li,#licensing-content ul li,#licensing-content ol li{
+	display: list-item;
+	list-style-type: square;
+	margin: 0 0 10px 30px;
+	font-weight: normal;
+}
+
+#presentation{
+	background: url("http://static.georemindme.com/images/icons/map_pin.png") no-repeat scroll 0 0 transparent;
+}
+#developers{
+	background: url("http://static.georemindme.com/images/icons/tools.png") no-repeat scroll 0 0 transparent;
+}
+#localization{
+	background: url("http://static.georemindme.com/images/icons/world.png") no-repeat scroll 0 0 transparent;
+}
+#design{
+	background: url("http://static.georemindme.com/images/icons/paint_brush.png") no-repeat scroll 0 0 transparent;
+}
+nav h1{
+	font-size:1em;
+	display:inline;
+}
+.center{
+	margin:0 auto;
+}
+.center img{
+	float:none;
+}
+.center p{
+	text-align:left;
+	line-height: 1.5em;
+}
+.message-box{
+	width:400px;
+}
+.community-box{
+	float:left;
+	width:455px;
+	padding:0 10px 0 10px;
+}
+
+#licensing-content h2{
+	border-bottom: 1px dotted black;
+	padding: 0 35px;
+}
+#licensing-content  img{
+	border:0;
+}
+
+#licensing-content{
+	margin-top:15px;
+}
+#licensing{
+	background: url("http://static.georemindme.com/images/icons/page.png") no-repeat scroll 0 0 transparent;
+}
+#open-software{
+	background: url("http://static.georemindme.com/images/icons/unlock.png") no-repeat scroll 0 0 transparent;
+}
+.facebook-app{
+	background: url("http://static.georemindme.com/images/icons/fb_icon.png") no-repeat scroll 5px center transparent;
+    line-height: 30px;
+    padding-left: 35px;
+}
+
+.android-app{
+	background: url("http://georemindme.appspot.com/static/webapp/img/android_icon.png") no-repeat scroll 5px center transparent;
+    line-height: 30px;
+    padding-left: 35px;
+}
+.chicken{
+	background: url("http://static.georemindme.com/images/icons/chicken.png") no-repeat scroll 5px center transparent;
+    line-height: 30px;
+    padding-left: 35px;
+}
+
+.web-project{
+	background: url("http://georemindme.appspot.com/static/webapp/img/webdesktop_icon.png") no-repeat scroll 5px center transparent;
+    line-height: 30px;
+    padding-left: 35px;
+}
