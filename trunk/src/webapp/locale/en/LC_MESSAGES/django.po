@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-06-11 16:11+0200\n"
+"POT-Creation-Date: 2011-06-11 17:08+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -104,7 +104,7 @@ msgid "Deny"
 msgstr ""
 
 #: geoauth/templates/oauth/login.html:9
-#: georemindme/templates/webapp/base.html:92
+#: georemindme/templates/webapp/base.html:93
 msgid "Sign in"
 msgstr ""
 
@@ -167,122 +167,130 @@ msgstr ""
 msgid "GeoRemindMe - Application for geolocated alerts"
 msgstr ""
 
-#: georemindme/templates/webapp/base.html:52
+#: georemindme/templates/webapp/base.html:18
+msgid "http://feeds.feedburner.com/GeoRemindMe"
+msgstr ""
+
+#: georemindme/templates/webapp/base.html:18
+msgid "http://blog.georemindme.com/feed/"
+msgstr ""
+
+#: georemindme/templates/webapp/base.html:53
 msgid "Go flying to the homepage. Tweet! Tweet!"
 msgstr ""
 
-#: georemindme/templates/webapp/base.html:60
+#: georemindme/templates/webapp/base.html:61
 msgid "Do you already have an account?"
 msgstr ""
 
-#: georemindme/templates/webapp/base.html:60
+#: georemindme/templates/webapp/base.html:61
 msgid "Log in"
 msgstr ""
 
-#: georemindme/templates/webapp/base.html:75
+#: georemindme/templates/webapp/base.html:76
 #: georemindme/templates/webapp/home.html:124
 msgid "Password"
 msgstr ""
 
-#: georemindme/templates/webapp/base.html:83
+#: georemindme/templates/webapp/base.html:84
 msgid "Forgot your password?"
 msgstr ""
 
-#: georemindme/templates/webapp/base.html:89
+#: georemindme/templates/webapp/base.html:90
 msgid "Remember me on this computer"
 msgstr ""
 
-#: georemindme/templates/webapp/base.html:99
+#: georemindme/templates/webapp/base.html:100
 #, python-format
 msgid "Hello %(email)s ! "
 msgstr ""
 
-#: georemindme/templates/webapp/base.html:99
+#: georemindme/templates/webapp/base.html:100
 msgid "Go to dashboard"
 msgstr ""
 
-#: georemindme/templates/webapp/base.html:115
+#: georemindme/templates/webapp/base.html:116
 msgid "Follow us on"
 msgstr ""
 
-#: georemindme/templates/webapp/base.html:117
+#: georemindme/templates/webapp/base.html:118
 msgid "Visit our Blog"
 msgstr ""
 
-#: georemindme/templates/webapp/base.html:118
+#: georemindme/templates/webapp/base.html:119
 msgid "Follow us on Twitter"
 msgstr ""
 
-#: georemindme/templates/webapp/base.html:119
+#: georemindme/templates/webapp/base.html:120
 msgid "Follow us on Facebook"
 msgstr ""
 
-#: georemindme/templates/webapp/base.html:132
+#: georemindme/templates/webapp/base.html:133
 msgid "More info"
 msgstr ""
 
-#: georemindme/templates/webapp/base.html:134
+#: georemindme/templates/webapp/base.html:135
 msgid "Contact"
 msgstr ""
 
-#: georemindme/templates/webapp/base.html:134
+#: georemindme/templates/webapp/base.html:135
 #: georemindme/templates/webapp/dashboard.html:165
 msgid "Contact us"
 msgstr ""
 
-#: georemindme/templates/webapp/base.html:135
+#: georemindme/templates/webapp/base.html:136
 msgid "How do we care about your data"
 msgstr ""
 
-#: georemindme/templates/webapp/base.html:135
+#: georemindme/templates/webapp/base.html:136
 msgid "Privacy Policy"
 msgstr ""
 
-#: georemindme/templates/webapp/base.html:136
+#: georemindme/templates/webapp/base.html:137
 msgid "Meet the requirements for using the application"
 msgstr ""
 
-#: georemindme/templates/webapp/base.html:136
+#: georemindme/templates/webapp/base.html:137
 msgid "Terms of Service"
 msgstr ""
 
-#: georemindme/templates/webapp/base.html:140
+#: georemindme/templates/webapp/base.html:141
 msgid "They supports this project"
 msgstr ""
 
-#: georemindme/templates/webapp/base.html:142
+#: georemindme/templates/webapp/base.html:143
 msgid "http://blog.georemindme.com/codeko-sponsors-georemindme/"
 msgstr ""
 
-#: georemindme/templates/webapp/base.html:142
+#: georemindme/templates/webapp/base.html:143
 msgid "Official Sponsor"
 msgstr ""
 
-#: georemindme/templates/webapp/base.html:143
+#: georemindme/templates/webapp/base.html:144
 msgid "Free Software Office UGR (Spain)"
 msgstr ""
 
-#: georemindme/templates/webapp/base.html:144
+#: georemindme/templates/webapp/base.html:145
 msgid "http://blog.georemindme.com/georemindme-is-going-to-france/"
 msgstr ""
 
-#: georemindme/templates/webapp/base.html:144
+#: georemindme/templates/webapp/base.html:145
 msgid "Forum Innovact Campus"
 msgstr ""
 
-#: georemindme/templates/webapp/base.html:145
+#: georemindme/templates/webapp/base.html:146
 msgid "http://blog.georemindme.com/category/achievements/"
 msgstr ""
 
-#: georemindme/templates/webapp/base.html:145
+#: georemindme/templates/webapp/base.html:146
 msgid "See who else support us"
 msgstr ""
 
-#: georemindme/templates/webapp/base.html:145
+#: georemindme/templates/webapp/base.html:146
 msgid "See all"
 msgstr ""
 
-#: georemindme/templates/webapp/base.html:151
+#: georemindme/templates/webapp/base.html:152
 #: georemindme/templates/webapp/dashboard.html:174
 msgid "Language:"
 msgstr ""
